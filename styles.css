@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: all 1s ease-in-out;
+}
+
+body {
+  text-align: center;
+}
+
+.dick-size-1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.dicks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.dickli-1 {
+  font-size: 2rem;
+}
+
+.dickli-2 {
+  font-size: 4rem;
+}
+
+.dark-mode-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.2s ease-in;
+  background-color: aliceblue;
+}
+.dark-mode-btn:hover {
+  background-color: antiquewhite;
+  transition: all 0.5s ease-in;
+}
+
+/* dark mode starts */
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode .dick-size-1,
+.dark-mode .dickli-1,
+.dark-mode .dickli-2 {
+  color: white;
+}
+/* dark mode ends */
